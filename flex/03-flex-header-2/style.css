@@ -9,6 +9,7 @@ body {
 }
 
 .header {
+  display:flex;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -19,6 +20,7 @@ body {
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
   width: 48px;
+  margin: 8px;
   height: 48px;
 }
 
@@ -26,6 +28,7 @@ body {
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
+  margin-right: -20px;
   font-style: italic;
 }
 
@@ -40,9 +43,24 @@ button {
 a {
   /* this removes the line under our links */
   text-decoration: none;
+  justify-content: space-between;
   color: rebeccapurple;
+  margin: 8px;
 }
 
 ul {
+  display:flex;
   list-style-type: none;
+}
+
+.stanga{
+  display:flex;
+  margin:8px;
+  align-items: center;
+}
+
+.dreapta{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
 }
